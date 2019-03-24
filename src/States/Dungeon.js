@@ -26,7 +26,7 @@ Dungeon.create = function () {
         var b = new Kiwi.GameObjects.Sprite(this, Dungeon.textures.button, 65 + 150*i, 626);
         this.addChild(b);
         if (i == 0) {
-            // b.input.onDown.add(this.goBack, this);
+            b.input.onDown.add(this.goBack, this);
             var arrow = new Kiwi.GameObjects.Sprite(this, Dungeon.textures.arrow, 105, 656);
             this.addChild(arrow);
             console.log('add arrow?');
@@ -92,7 +92,7 @@ Dungeon.doHint = function () {
 }
 
 Dungeon.goBack = function () {
-    game.states.switchState("IntroState");
+    game.states.switchState("Levels");
 }
 
 /**

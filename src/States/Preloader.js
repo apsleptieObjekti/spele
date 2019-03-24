@@ -5,10 +5,17 @@ Preloader.preload = function () {
     KiwiLoadingScreen.prototype.preload.call(this);
     //TITLE
     this.addImage('startBG', 'assets/img/startScreen/BG.jpg');
-    this.addImage('levels', 'assets/img/startScreen/levels.jpg');
-    this.addImage('dungeon_button', 'assets/img/startScreen/dungeon_button.png');
+    this.addImage('spelet_button', 'assets/img/startScreen/spelet_button.png');
+    // this.addImage('dungeon_button', 'assets/img/startScreen/dungeon_button.png');
     // this.addImage('study_button', 'assets/img/startScreen/study_button.png');
     // this.addImage('tavern_button', 'assets/img/startScreen/tavern_button.png');
+
+    //Levels
+    this.addImage('levels', 'assets/img/levels/levels.jpg');
+    this.addImage('first_button', 'assets/img/levels/1_button.png');
+    this.addImage('second_button', 'assets/img/levels/2_button.png');
+    this.addImage('third_button', 'assets/img/levels/3_button.png');
+    this.addImage('fourth_button', 'assets/img/levels/4_button.png');
 
     //UI
     this.addImage('arrow', 'assets/img/ui/arrow.png');

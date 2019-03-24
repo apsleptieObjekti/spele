@@ -5,9 +5,9 @@ IntroState.create = function () {
     this.BG = new Kiwi.GameObjects.Sprite(IntroState, IntroState.textures.startBG, 0, 0);
     this.addChild(this.BG);
 
-    this.dungeonBtn = new Kiwi.GameObjects.Sprite(IntroState, IntroState.textures.dungeon_button, 425, 282);
-    this.addChild(this.dungeonBtn);
-    this.dungeonBtn.input.onDown.add(this.goToLevels, this);
+    this.spelet_button = new Kiwi.GameObjects.Sprite(IntroState, IntroState.textures.spelet_button, 440, 300);
+    this.addChild(this.spelet_button);
+    this.spelet_button.input.onDown.add(this.goLevels, this);
     //
     // this.studyBtn = new Kiwi.GameObjects.Sprite(IntroState, IntroState.textures.study_button, 398, 482);
     // this.addChild(this.studyBtn);
@@ -18,9 +18,8 @@ IntroState.create = function () {
     // this.tavernBtn.input.onDown.add(this.goTavern, this);
 }
 
-IntroState.goToLevels = function () {
-    this.BG = new Kiwi.GameObjects.Sprite(IntroState, IntroState.textures.levels, 0, 0);
-    this.addChild(this.BG);
+IntroState.goLevels = function () {
+    game.states.switchState("Levels");
 }
 
 IntroState.goDungeon = function () {
