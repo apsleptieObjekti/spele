@@ -21,11 +21,11 @@ Levels.create = function () {
 
     this.first_button = new Kiwi.GameObjects.Sprite(Levels, Levels.textures.first_button, 263, 210);
     this.addChild(this.first_button);
-    this.first_button.input.onDown.add(this.goDungeon, this);
+    this.first_button.input.onDown.add(this.goSchool, this);
 
     this.second_button = new Kiwi.GameObjects.Sprite(Levels, Levels.textures.second_button, 413, 210);
     this.addChild(this.second_button);
-    this.second_button.input.onDown.add(this.goDungeon, this);
+    this.second_button.input.onDown.add(this.goLivingRoom, this);
 
     this.third_button = new Kiwi.GameObjects.Sprite(Levels, Levels.textures.third_button, 563, 210);
     this.addChild(this.third_button);
@@ -38,4 +38,12 @@ Levels.create = function () {
 
 Levels.goDungeon = function () {
     game.states.switchState("Dungeon");
+}
+
+Levels.goSchool = function () {
+    game.states.switchState("School");
+}
+
+Levels.goLivingRoom = function () {
+    game.states.switchState("LivingRoom");
 }

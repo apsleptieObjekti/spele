@@ -22,14 +22,14 @@ IntroState.goLevels = function () {
     game.states.switchState("Levels");
 }
 
-IntroState.goDungeon = function () {
-    game.states.switchState("Dungeon");
-}
-
-IntroState.goStudy = function () {
-    game.states.switchState("Study");
-}
-
-IntroState.goTavern = function () {
-    game.states.switchState("Tavern");
-}
+// IntroState.goDungeon = function () {
+//     game.states.switchState("Dungeon");
+// }
+//
+// IntroState.goStudy = function () {
+//     game.states.switchState("Study");
+// }
+//
+// IntroState.goTavern = function () {
+//     game.states.switchState("Tavern");
+// }
