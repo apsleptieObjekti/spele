@@ -6,9 +6,6 @@ Preloader.preload = function () {
     //TITLE
     this.addImage('startBG', 'assets/img/startScreen/BG.jpg');
     this.addImage('spelet_button', 'assets/img/startScreen/spelet_button.png');
-    // this.addImage('dungeon_button', 'assets/img/startScreen/dungeon_button.png');
-    // this.addImage('study_button', 'assets/img/startScreen/study_button.png');
-    // this.addImage('tavern_button', 'assets/img/startScreen/tavern_button.png');
 
     //Levels
     this.addImage('levels', 'assets/img/levels/levels.jpg');
@@ -19,30 +16,41 @@ Preloader.preload = function () {
 
     //UI
     this.addImage('back_arrow', 'assets/img/ui/back_arrow.jpeg');
-    this.addImage('arrow', 'assets/img/ui/arrow.png');//TODO delete this
-    this.addImage('button', 'assets/img/ui/button.png');
-
-    //DUNGEON
-    this.addImage('dungeonBG', 'assets/img/dungeonScreen/BG.jpg');
-    this.addImage('hidden_candle', 'assets/img/dungeonScreen/hidden_candle.png');
-    this.addImage('hidden_coin', 'assets/img/dungeonScreen/hidden_coin.png');
-    this.addImage('hidden_mug', 'assets/img/dungeonScreen/hidden_mug.png');
-    this.addImage('hidden_skull', 'assets/img/dungeonScreen/hidden_skull.png');
-    this.addImage('hidden_telescope', 'assets/img/dungeonScreen/hidden_telescope.png');
-
-    this.addImage('UI_candle', 'assets/img/dungeonScreen/UI_candle.png');
-    this.addImage('UI_coin', 'assets/img/dungeonScreen/UI_coin.png');
-    this.addImage('UI_mug', 'assets/img/dungeonScreen/UI_mug.png');
-    this.addImage('UI_skull', 'assets/img/dungeonScreen/UI_skull.png');
-    this.addImage('UI_telescope', 'assets/img/dungeonScreen/UI_telescope.png');
 
     //SCHOOL
     this.addImage('schoolBG', 'assets/img/school/BG.jpg');
-    this.addImage('hidden_exit', 'assets/img/school/hidden_exit.png');
-    this.addImage('hidden_dators_poga', 'assets/img/school/hidden_dators_poga.png');
+    this.addImage('Hidden_aparats', 'assets/img/school/Hidden_aparats.png');
+    this.addImage('Hidden_evakuacija', 'assets/img/school/Hidden_evakuacija.png');
+    this.addImage('Hidden_masina_school', 'assets/img/school/Hidden_masina.png');
+    this.addImage('Hidden_plakats', 'assets/img/school/Hidden_plakats.png');
+    this.addImage('Hidden_skolotaja', 'assets/img/school/Hidden_skolotaja.png');
+    this.addImage('Hidden_zime_school', 'assets/img/school/Hidden_zime.png');
 
-    this.addImage('UI_exit', 'assets/img/school/UI_exit.png');
-    this.addImage('UI_dators_poga', 'assets/img/school/UI_dators_poga.png');
+
+    this.addImage('UI_aparats', 'assets/img/school/UI_aparats.png');
+    this.addImage('UI_evakuacija', 'assets/img/school/UI_evakuacija.png');
+    this.addImage('UI_masina_school', 'assets/img/school/UI_masina.png');
+    this.addImage('UI_plakats', 'assets/img/school/UI_plakats.png');
+    this.addImage('UI_skolotaja', 'assets/img/school/UI_skolotaja.png');
+    this.addImage('UI_zime_school', 'assets/img/school/UI_zime.png');
+
+    //STREET
+    this.addImage('StreetBG', 'assets/img/street/BG.jpg');
+    this.addImage('Hidden_hidrants', 'assets/img/street/Hidden_hidrants.png');
+    this.addImage('Hidden_kapnes', 'assets/img/street/Hidden_kapnes.png');
+    this.addImage('Hidden_masina', 'assets/img/street/Hidden_masina.png');
+    this.addImage('Hidden_piebrauktuve', 'assets/img/street/Hidden_piebrauktuve.png');
+    this.addImage('Hidden_ugunsdzesejs', 'assets/img/street/Hidden_ugunsdzesejs.png');
+    this.addImage('Hidden_vieta', 'assets/img/street/Hidden_vieta.png');
+    this.addImage('Hidden_zime', 'assets/img/street/Hidden_zime.png');
+
+    this.addImage('UI_hidrants', 'assets/img/street/UI_hidrants.png');
+    this.addImage('UI_kapnes', 'assets/img/street/UI_kapnes.png');
+    this.addImage('UI_masina', 'assets/img/street/UI_masina.png');
+    this.addImage('UI_piebrauktuve', 'assets/img/street/UI_piebrauktuve.png');
+    this.addImage('UI_ugunsdzesejs', 'assets/img/street/UI_ugunsdzesejs.png');
+    this.addImage('UI_vieta', 'assets/img/street/UI_vieta.png');
+    this.addImage('UI_zime', 'assets/img/street/UI_zime.png');
 
     //LIVINGROOM
     this.addImage('livingRoomBG', 'assets/img/livingRoom/BG.jpg');
@@ -65,36 +73,20 @@ Preloader.preload = function () {
     this.addImage('UI_serkocini', 'assets/img/livingRoom/UI_serkocini.png');
     this.addImage('UI_spuldzite', 'assets/img/livingRoom/UI_spuldzite.png');
     this.addImage('UI_svece', 'assets/img/livingRoom/UI_svece.png');
-    // this.addImage('hidden_candelabra', 'assets/img/tavernScreen/hidden_candelabra.png');
-    // this.addImage('hidden_envelope', 'assets/img/tavernScreen/hidden_envelope.png');
-    // this.addImage('hidden_teddy', 'assets/img/tavernScreen/hidden_teddy.png');
-    // this.addImage('hidden_wheel', 'assets/img/tavernScreen/hidden_wheel.png');
 
-    //STUDY
-    // this.addImage('studyBG', 'assets/img/studyScreen/BG.jpg');
-    // this.addImage('hidden_bwlloes', 'assets/img/studyScreen/hidden_bwlloes.png');
-    // this.addImage('hidden_cross', 'assets/img/studyScreen/hidden_cross.png');
-    // this.addImage('hidden_flag', 'assets/img/studyScreen/hidden_flag.png');
-    // this.addImage('hidden_glasses', 'assets/img/studyScreen/hidden_glasses.png');
-    // this.addImage('hidden_telescope2', 'assets/img/studyScreen/hidden_telescope2.png');
-    //
-    // this.addImage('UI_bwlloes', 'assets/img/studyScreen/UI_bwlloes.png');
-    // this.addImage('UI_cross', 'assets/img/studyScreen/UI_cross.png');
-    // this.addImage('UI_flag', 'assets/img/studyScreen/UI_flag.png');
-    // this.addImage('UI_glasses', 'assets/img/studyScreen/UI_glasses.png');
-    // this.addImage('UI_telescope2', 'assets/img/studyScreen/UI_telescope2.png');
-    //
-    // //TAVERN
-    // this.addImage('tavernBG', 'assets/img/tavernScreen/BG.jpg');
-    // this.addImage('hidden_apple', 'assets/img/tavernScreen/hidden_apple.png');
-    // this.addImage('hidden_candelabra', 'assets/img/tavernScreen/hidden_candelabra.png');
-    // this.addImage('hidden_envelope', 'assets/img/tavernScreen/hidden_envelope.png');
-    // this.addImage('hidden_teddy', 'assets/img/tavernScreen/hidden_teddy.png');
-    // this.addImage('hidden_wheel', 'assets/img/tavernScreen/hidden_wheel.png');
-    //
-    // this.addImage('UI_apple', 'assets/img/tavernScreen/UI_apple.png');
-    // this.addImage('UI_candelabra', 'assets/img/tavernScreen/UI_candelabra.png');
-    // this.addImage('UI_envelope', 'assets/img/tavernScreen/UI_envelope.png');
-    // this.addImage('UI_teddy', 'assets/img/tavernScreen/UI_teddy.png');
-    // this.addImage('UI_wheel', 'assets/img/tavernScreen/UI_wheel.png');
+    //MALL
+    this.addImage('mallBG', 'assets/img/mall/BG.jpg');
+    this.addImage('Hidden_apsargs', 'assets/img/mall/Hidden_apsargs.png');
+    this.addImage('Hidden_izeja', 'assets/img/mall/Hidden_izeja.png');
+    this.addImage('Hidden_krans', 'assets/img/mall/Hidden_krans.png');
+    this.addImage('Hidden_lifts', 'assets/img/mall/Hidden_lifts.png');
+    this.addImage('Hidden_plans', 'assets/img/mall/Hidden_plans.png');
+    this.addImage('Hidden_virziens', 'assets/img/mall/Hidden_virziens.png');
+
+    this.addImage('UI_apsargs', 'assets/img/mall/UI_apsargs.png');
+    this.addImage('UI_izeja', 'assets/img/mall/UI_izeja.png');
+    this.addImage('UI_krans', 'assets/img/mall/UI_krans.png');
+    this.addImage('UI_lifts', 'assets/img/mall/UI_lifts.png');
+    this.addImage('UI_plans', 'assets/img/mall/UI_plans.png');
+    this.addImage('UI_virziens', 'assets/img/mall/UI_virziens.png');
 };

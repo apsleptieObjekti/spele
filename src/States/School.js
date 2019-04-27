@@ -21,27 +21,13 @@ School.create = function () {
     this.bg = new Kiwi.GameObjects.Sprite(this, School.textures.schoolBG, 0, 0);
     this.addChild(this.bg);
 
-    // for (var i = 0; i < 6; i++) {
-    //     var b = new Kiwi.GameObjects.Sprite(this, School.textures.button, 65 + 150*i, 626);
-    //     this.addChild(b);
-    //     if (i == 0) {
-    //         b.input.onDown.add(this.goBack, this);
-    //         var arrow = new Kiwi.GameObjects.Sprite(this, School.textures.arrow, 105, 656);
-    //         this.addChild(arrow);
-    //         console.log('add arrow?');
-    //     }
-    // }
-
-    // var arrow = new Kiwi.GameObjects.Sprite(this, School.textures.back_arrow, 15, 15);
-    // arrow.input.onDown.add(this.goBack, this);
-    // this.addChild(arrow);
-
     //add hidden objects and their corresponding UI preview images
-    this.addHiddenObject('dators_poga', 921-13, 211-19, 100, 100);
-    // this.addHiddenObject('candelabra', 610-67, 322-75);
-    // this.addHiddenObject('envelope', 505-29, 392-16);
-    // this.addHiddenObject('teddy', 16-16, 478-15);
-    // this.addHiddenObject('wheel', 251-26, 211-83);
+    this.addHiddenObject('plakats', 315, 325, 76, 25);
+    this.addHiddenObject('masina_school', 270, 360, 76, 65);
+    this.addHiddenObject('aparats', 858, 480, 460, 65);
+    this.addHiddenObject('zime_school', 905, 485, 76, 105);
+    this.addHiddenObject('skolotaja', 400, 320, 420, 105);
+    this.addHiddenObject('evakuacija', 970, 230, 76, 145);
 }
 
 /**
@@ -58,7 +44,7 @@ School.addHiddenObject = function (objName, objX, objY, hiddenObjX, hiddenObjY) 
     //Object hidden on the stage
 
     console.log('create object: ',objName);
-    this['hiddenObject' + objName] = new Kiwi.GameObjects.Sprite(this, School.textures['hidden_' + objName], objX, objY);
+    this['hiddenObject' + objName] = new Kiwi.GameObjects.Sprite(this, School.textures['Hidden_' + objName], objX, objY);
     this['hiddenObject' + objName].objName = objName;
     this['hiddenObject' + objName].input.onDown.add(this.clickObject, this);
     this.addChild(this['hiddenObject' + objName]);
@@ -68,31 +54,6 @@ School.addHiddenObject = function (objName, objX, objY, hiddenObjX, hiddenObjY) 
     this.addChild(this['UIButton' + objName]);
 
     this.hiddenObjects.push(this['hiddenObject' + objName]);
-}
-
-/**
- * This method scales a hidden object
- * @method doHint
- * @public
- */
-School.doHint = function () {
-    //if hint is already active, deselect current hint instead
-    if (!this.gameComplete) {
-        for (var i in this.hiddenObjects) {
-            this.hiddenObjects[i].transform.scaleX = 1;
-            this.hiddenObjects[i].transform.scaleY = 1;
-        }
-
-        //get hidden ones, randomize selection and scale.
-        var rand = Math.floor(Math.random() * this.hiddenObjects.length);
-        if (this.hiddenObjects[rand].visible) {
-            this.hiddenObjects[rand].transform.scaleX = 1.5;
-            this.hiddenObjects[rand].transform.scaleY = 1.5;
-        } else {
-            //try aain if the selected one's been found
-            this.doHint();
-        }
-    }
 }
 
 School.goBack = function () {
@@ -122,5 +83,6 @@ School.clickObject = function (hiddenObj) {
     if (allFound) {
         this.gameComplete = true;
         console.log('complete!');
+        game.states.switchState("LivingRoom");
     }
 }

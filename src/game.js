@@ -6,7 +6,6 @@ game.states.addState(IntroState);
 game.states.addState(Levels);
 game.states.addState(School);
 game.states.addState(LivingRoom);
-//TODO delete Dungeon
-game.states.addState(Dungeon);
-
+game.states.addState(Street);
+game.states.addState(Mall);
 game.states.switchState("Preloader");

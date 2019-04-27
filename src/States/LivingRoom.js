@@ -26,19 +26,15 @@ LivingRoom.create = function () {
     // this.addChild(arrow);
 
     //add hidden objects and their corresponding UI preview images
-    this.addHiddenObject('dators', 360, 356, 220, 700);
-    this.addHiddenObject('detektors', 180, 90, 80, 660);
-    this.addHiddenObject('gludeklis', 785, 475, 84, 690);
-    this.addHiddenObject('kakis', 510, 370, 100, 720);
-    this.addHiddenObject('pagarinatajs', 700, 470, 230, 660);
-    this.addHiddenObject('panna', 40, 300, 290, 720);
-    this.addHiddenObject('serkocini', 960, 570, 290, 690);
-    this.addHiddenObject('spuldzite', 260, 220, 180, 720);
-    this.addHiddenObject('svece', 940, 500, 370, 660);
-    // this.addHiddenObject('candelabra', 610-67, 322-75);
-    // this.addHiddenObject('envelope', 505-29, 392-16);
-    // this.addHiddenObject('teddy', 16-16, 478-15);
-    // this.addHiddenObject('wheel', 251-26, 211-83);
+    this.addHiddenObject('dators', 333, 338, 220, 690);
+    this.addHiddenObject('detektors', 180, 85, 80, 660);
+    this.addHiddenObject('kakis', 470, 345,80, 720);
+    this.addHiddenObject('pagarinatajs', 680, 460, 280, 660);
+    this.addHiddenObject('gludeklis', 760, 485, 80, 690);
+    this.addHiddenObject('panna', 40, 285, 330, 720);
+    this.addHiddenObject('serkocini', 960, 570, 330, 690);
+    this.addHiddenObject('spuldzite', 255, 220, 180, 720);
+    this.addHiddenObject('svece', 920, 460, 450, 660);
 }
 
 /**
@@ -119,5 +115,6 @@ LivingRoom.clickObject = function (hiddenObj) {
     if (allFound) {
         this.gameComplete = true;
         console.log('complete!');
+        game.states.switchState("Street");
     }
 }

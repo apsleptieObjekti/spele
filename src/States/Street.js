@@ -1,4 +1,4 @@
-var Dungeon = new Kiwi.State('Dungeon');
+var Street = new Kiwi.State('Street');
 //CREATING THE BLUE PRINT
 /**
  *A Kiwi Blueprint of a Hidden Object Game
@@ -14,32 +14,21 @@ var Dungeon = new Kiwi.State('Dungeon');
  * @method create
  * @public
  */
-Dungeon.create = function () {
+Street.create = function () {
     this.hiddenObjects = [];
     this.gameComplete = false;
-    console.log('create dungeon');
     //add bg
-    this.bg = new Kiwi.GameObjects.Sprite(this, Dungeon.textures.dungeonBG, 0, 0);
+        this.bg = new Kiwi.GameObjects.Sprite(this, Street.textures.StreetBG, 0, 0);
     this.addChild(this.bg);
 
-    for (var i = 0; i < 6; i++) {
-        var b = new Kiwi.GameObjects.Sprite(this, Dungeon.textures.button, 65 + 150*i, 626);
-        this.addChild(b);
-        if (i == 0) {
-            b.input.onDown.add(this.goBack, this);
-            var arrow = new Kiwi.GameObjects.Sprite(this, Dungeon.textures.arrow, 105, 656);
-            this.addChild(arrow);
-            console.log('add arrow?');
-        }
-    }
-
     //add hidden objects and their corresponding UI preview images
-    this.addHiddenObject('candle', 762, 218);
-    this.addHiddenObject('coin', 359, 478);
-    this.addHiddenObject('mug', 414, 447);
-    this.addHiddenObject('skull', 563, 381);
-    this.addHiddenObject('telescope', 901, 61);
-    console.log('create dungeon');
+    this.addHiddenObject('hidrants', 880, 540, 90, 150);
+    this.addHiddenObject('kapnes', 0, 430, 90, 110);
+    this.addHiddenObject('masina', 0, 474, 90, 70);
+    this.addHiddenObject('piebrauktuve', 758, 410, 90, 32);
+    this.addHiddenObject('ugunsdzesejs', 137, 530, 580, 72);
+    this.addHiddenObject('vieta', 75, 420, 350, 70);
+    this.addHiddenObject('zime', 688, 515, 350, 110);
 }
 
 /**
@@ -49,18 +38,20 @@ Dungeon.create = function () {
  * @param objName{String}
  * @param objX{Number}
  * @param objY{Number}
+ * @param hiddenObjX{Number}
+ * @param hiddenObjY{Number}
  */
-Dungeon.addHiddenObject = function (objName, objX, objY) {
+Street.addHiddenObject = function (objName, objX, objY, hiddenObjX, hiddenObjY) {
     //Object hidden on the stage
 
     console.log('create object: ',objName);
-    this['hiddenObject' + objName] = new Kiwi.GameObjects.Sprite(this, Dungeon.textures['hidden_' + objName], objX, objY);
+    this['hiddenObject' + objName] = new Kiwi.GameObjects.Sprite(this, Street.textures['Hidden_' + objName], objX, objY);
     this['hiddenObject' + objName].objName = objName;
     this['hiddenObject' + objName].input.onDown.add(this.clickObject, this);
     this.addChild(this['hiddenObject' + objName]);
 
     //UI preview image
-    this['UIButton' + objName] = new Kiwi.GameObjects.Sprite(this, Dungeon.textures['UI_' + objName], 150 * this.hiddenObjects.length + 245, 646);
+    this['UIButton' + objName] = new Kiwi.GameObjects.Sprite(this, Street.textures['UI_' + objName], hiddenObjX, hiddenObjY);
     this.addChild(this['UIButton' + objName]);
 
     this.hiddenObjects.push(this['hiddenObject' + objName]);
@@ -71,7 +62,7 @@ Dungeon.addHiddenObject = function (objName, objX, objY) {
  * @method doHint
  * @public
  */
-Dungeon.doHint = function () {
+Street.doHint = function () {
     //if hint is already active, deselect current hint instead
     if (!this.gameComplete) {
         for (var i in this.hiddenObjects) {
@@ -91,8 +82,8 @@ Dungeon.doHint = function () {
     }
 }
 
-Dungeon.goBack = function () {
-    game.states.switchState("Levels");
+Street.goBack = function () {
+    game.states.switchState("IntroState");
 }
 
 /**
@@ -101,7 +92,7 @@ Dungeon.goBack = function () {
  * @public
  * @param hiddenObj{Sprite}
  */
-Dungeon.clickObject = function (hiddenObj) {
+Street.clickObject = function (hiddenObj) {
     //remove object and associated UI btn
     hiddenObj.visible = false;
     this['UIButton' + hiddenObj.objName].visible = false;
@@ -118,5 +109,6 @@ Dungeon.clickObject = function (hiddenObj) {
     if (allFound) {
         this.gameComplete = true;
         console.log('complete!');
+        game.states.switchState("Mall");
     }
 }
