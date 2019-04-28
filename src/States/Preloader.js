@@ -26,7 +26,6 @@ Preloader.preload = function () {
     this.addImage('Hidden_skolotaja', 'assets/img/school/Hidden_skolotaja.png');
     this.addImage('Hidden_zime_school', 'assets/img/school/Hidden_zime.png');
 
-
     this.addImage('UI_aparats', 'assets/img/school/UI_aparats.png');
     this.addImage('UI_evakuacija', 'assets/img/school/UI_evakuacija.png');
     this.addImage('UI_masina_school', 'assets/img/school/UI_masina.png');

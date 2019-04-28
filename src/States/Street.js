@@ -18,7 +18,7 @@ Street.create = function () {
     this.hiddenObjects = [];
     this.gameComplete = false;
     //add bg
-        this.bg = new Kiwi.GameObjects.Sprite(this, Street.textures.StreetBG, 0, 0);
+    this.bg = new Kiwi.GameObjects.Sprite(this, Street.textures.StreetBG, 0, 0);
     this.addChild(this.bg);
 
     //add hidden objects and their corresponding UI preview images
@@ -55,35 +55,6 @@ Street.addHiddenObject = function (objName, objX, objY, hiddenObjX, hiddenObjY) 
     this.addChild(this['UIButton' + objName]);
 
     this.hiddenObjects.push(this['hiddenObject' + objName]);
-}
-
-/**
- * This method scales a hidden object
- * @method doHint
- * @public
- */
-Street.doHint = function () {
-    //if hint is already active, deselect current hint instead
-    if (!this.gameComplete) {
-        for (var i in this.hiddenObjects) {
-            this.hiddenObjects[i].transform.scaleX = 1;
-            this.hiddenObjects[i].transform.scaleY = 1;
-        }
-
-        //get hidden ones, randomize selection and scale.
-        var rand = Math.floor(Math.random() * this.hiddenObjects.length);
-        if (this.hiddenObjects[rand].visible) {
-            this.hiddenObjects[rand].transform.scaleX = 1.5;
-            this.hiddenObjects[rand].transform.scaleY = 1.5;
-        } else {
-            //try aain if the selected one's been found
-            this.doHint();
-        }
-    }
-}
-
-Street.goBack = function () {
-    game.states.switchState("IntroState");
 }
 
 /**

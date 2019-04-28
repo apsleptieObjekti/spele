@@ -57,35 +57,6 @@ Mall.addHiddenObject = function (objName, objX, objY, hiddenObjX, hiddenObjY) {
 }
 
 /**
- * This method scales a hidden object
- * @method doHint
- * @public
- */
-Mall.doHint = function () {
-    //if hint is already active, deselect current hint instead
-    if (!this.gameComplete) {
-        for (var i in this.hiddenObjects) {
-            this.hiddenObjects[i].transform.scaleX = 1;
-            this.hiddenObjects[i].transform.scaleY = 1;
-        }
-
-        //get hidden ones, randomize selection and scale.
-        var rand = Math.floor(Math.random() * this.hiddenObjects.length);
-        if (this.hiddenObjects[rand].visible) {
-            this.hiddenObjects[rand].transform.scaleX = 1.5;
-            this.hiddenObjects[rand].transform.scaleY = 1.5;
-        } else {
-            //try aain if the selected one's been found
-            this.doHint();
-        }
-    }
-}
-
-Mall.goBack = function () {
-    game.states.switchState("IntroState");
-}
-
-/**
  * This method removes located object from the background image and UI
  * @method clickObject
  * @public

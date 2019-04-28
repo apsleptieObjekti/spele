@@ -21,10 +21,6 @@ LivingRoom.create = function () {
     this.bg = new Kiwi.GameObjects.Sprite(this, LivingRoom.textures.livingRoomBG, 0, 0);
     this.addChild(this.bg);
 
-    // var arrow = new Kiwi.GameObjects.Sprite(this, LivingRoom.textures.back_arrow, 15, 15);
-    // arrow.input.onDown.add(this.goBack, this);
-    // this.addChild(arrow);
-
     //add hidden objects and their corresponding UI preview images
     this.addHiddenObject('dators', 333, 338, 220, 690);
     this.addHiddenObject('detektors', 180, 85, 80, 660);
@@ -61,35 +57,6 @@ LivingRoom.addHiddenObject = function (objName, objX, objY, hiddenObjX, hiddenOb
     this.addChild(this['UIButton' + objName]);
 
     this.hiddenObjects.push(this['hiddenObject' + objName]);
-}
-
-/**
- * This method scales a hidden object
- * @method doHint
- * @public
- */
-LivingRoom.doHint = function () {
-    //if hint is already active, deselect current hint instead
-    if (!this.gameComplete) {
-        for (var i in this.hiddenObjects) {
-            this.hiddenObjects[i].transform.scaleX = 1;
-            this.hiddenObjects[i].transform.scaleY = 1;
-        }
-
-        //get hidden ones, randomize selection and scale.
-        var rand = Math.floor(Math.random() * this.hiddenObjects.length);
-        if (this.hiddenObjects[rand].visible) {
-            this.hiddenObjects[rand].transform.scaleX = 1.5;
-            this.hiddenObjects[rand].transform.scaleY = 1.5;
-        } else {
-            //try aain if the selected one's been found
-            this.doHint();
-        }
-    }
-}
-
-LivingRoom.goBack = function () {
-    game.states.switchState("IntroState");
 }
 
 /**

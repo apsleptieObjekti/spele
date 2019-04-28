@@ -41,8 +41,6 @@ School.create = function () {
  * @param hiddenObjY{Number}
  */
 School.addHiddenObject = function (objName, objX, objY, hiddenObjX, hiddenObjY) {
-    //Object hidden on the stage
-
     console.log('create object: ',objName);
     this['hiddenObject' + objName] = new Kiwi.GameObjects.Sprite(this, School.textures['Hidden_' + objName], objX, objY);
     this['hiddenObject' + objName].objName = objName;
@@ -54,10 +52,6 @@ School.addHiddenObject = function (objName, objX, objY, hiddenObjX, hiddenObjY) 
     this.addChild(this['UIButton' + objName]);
 
     this.hiddenObjects.push(this['hiddenObject' + objName]);
-}
-
-School.goBack = function () {
-    game.states.switchState("IntroState");
 }
 
 /**

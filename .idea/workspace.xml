@@ -2,24 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="515837d6-ddda-45cc-bbd9-dea3d2cf7c43" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/States/Mall.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/States/Street.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/livingRoom/BG.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/livingRoom/BG.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/school/UI_dators_poga.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/school/UI_exit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/school/hidden_dators_poga.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/school/hidden_exit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/img/school/test.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/States/Dungeon.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/States/IntroState.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/States/IntroState.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/States/Levels.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/States/Levels.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/States/LivingRoom.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/States/LivingRoom.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/States/Mall.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/States/Mall.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/States/Preloader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/States/Preloader.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/States/School.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/States/School.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/States/Study.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/States/Tavern.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/States/Street.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/States/Street.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/game.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/game.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,20 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Mall.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Mall.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/States/Mall.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1309">
-              <caret line="110" column="8" lean-forward="true" selection-start-line="110" selection-start-column="8" selection-end-line="110" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IntroState.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/States/IntroState.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="43" selection-start-column="33" selection-end-column="43" />
+            <state relative-caret-position="422">
+              <caret line="81" column="23" selection-start-line="81" selection-start-column="23" selection-end-line="81" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -52,8 +32,8 @@
       <file leaf-file-name="Preloader.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/States/Preloader.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+            <state relative-caret-position="85">
+              <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -61,17 +41,38 @@
       <file leaf-file-name="Levels.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/States/Levels.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
+            <state relative-caret-position="663">
               <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="game.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="game.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/game.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+            <state>
+              <caret column="22" lean-forward="true" selection-start-column="22" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -79,8 +80,8 @@
       <file leaf-file-name="LivingRoom.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/States/LivingRoom.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="117" column="8" selection-start-line="117" selection-start-column="8" selection-end-line="117" selection-end-column="42" />
+            <state relative-caret-position="357">
+              <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -88,8 +89,8 @@
       <file leaf-file-name="School.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/States/School.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-98">
-              <caret line="56" column="1" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
+            <state relative-caret-position="1343">
+              <caret line="79" column="45" selection-start-line="79" selection-start-column="45" selection-end-line="79" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -97,8 +98,8 @@
       <file leaf-file-name="Street.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/States/Street.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+            <state relative-caret-position="272">
+              <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -119,6 +120,7 @@
       <find>Street</find>
       <find>izeja</find>
       <find>doHint</find>
+      <find>fd</find>
     </findStrings>
     <replaceStrings>
       <replace>School</replace>
@@ -136,19 +138,19 @@
         <option value="$PROJECT_DIR$/lib/kiwipreloader.js" />
         <option value="$PROJECT_DIR$/src/States/PlayState.js" />
         <option value="$PROJECT_DIR$/src/States/LoadingState.js" />
-        <option value="$PROJECT_DIR$/assets/css/style.css" />
         <option value="$PROJECT_DIR$/src/States/Study.js" />
         <option value="$PROJECT_DIR$/src/States/Tavern.js" />
         <option value="$PROJECT_DIR$/src/States/Dungeon.js" />
         <option value="$PROJECT_DIR$/src/States/IntroState.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/src/States/Levels.js" />
-        <option value="$PROJECT_DIR$/src/game.js" />
-        <option value="$PROJECT_DIR$/src/States/Preloader.js" />
-        <option value="$PROJECT_DIR$/src/States/LivingRoom.js" />
-        <option value="$PROJECT_DIR$/src/States/Mall.js" />
-        <option value="$PROJECT_DIR$/src/States/Street.js" />
         <option value="$PROJECT_DIR$/src/States/School.js" />
+        <option value="$PROJECT_DIR$/src/States/LivingRoom.js" />
+        <option value="$PROJECT_DIR$/src/States/Street.js" />
+        <option value="$PROJECT_DIR$/src/game.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/assets/css/style.css" />
+        <option value="$PROJECT_DIR$/src/States/Preloader.js" />
+        <option value="$PROJECT_DIR$/src/States/Mall.js" />
       </list>
     </option>
   </component>
@@ -187,6 +189,12 @@
               <item name="HOG" type="b2602c69:ProjectViewProjectNode" />
               <item name="HOG" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HOG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HOG" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HOG" type="b2602c69:ProjectViewProjectNode" />
@@ -253,6 +261,11 @@
             <path>
               <item name="HOG" type="b2602c69:ProjectViewProjectNode" />
               <item name="HOG" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HOG" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HOG" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -307,7 +320,8 @@
       <workItem from="1553367985908" duration="651000" />
       <workItem from="1553425760341" duration="5872000" />
       <workItem from="1556211822628" duration="14056000" />
-      <workItem from="1556371246406" duration="16674000" />
+      <workItem from="1556371246406" duration="18215000" />
+      <workItem from="1556449267005" duration="7220000" />
     </task>
     <task id="LOCAL-00001" summary="Added levels state">
       <created>1553435284161</created>
@@ -316,17 +330,24 @@
       <option name="project" value="LOCAL" />
       <updated>1553435284161</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added final levels">
+      <created>1556389461577</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1556389461577</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59939000" />
+    <option name="totallyTimeSpent" value="68700000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.2655068" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.26928896" />
       <window_info anchor="bottom" id="TODO" order="11" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
@@ -356,27 +377,13 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added levels state" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added levels state" />
+    <MESSAGE value="Added final levels" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added final levels" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/States/PlayState.js" />
     <entry file="file://$PROJECT_DIR$/assets/img/hidden_1.png" />
     <entry file="file://$PROJECT_DIR$/assets/img/UI_1.png" />
     <entry file="file://$PROJECT_DIR$/src/States/LoadingState.js" />
-    <entry file="file://$PROJECT_DIR$/lib/kiwi.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="15539" column="4" selection-start-line="15539" selection-start-column="4" selection-end-line="15539" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/img/dungeonScreen/hidden_skull.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -391,13 +398,7 @@
     <entry file="file://$PROJECT_DIR$/assets/img/startScreen/BG.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/States/Tavern.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="42" lean-forward="true" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/States/Tavern.js" />
     <entry file="file://$PROJECT_DIR$/assets/img/school/viss-kadrs.jpg" />
     <entry file="file://$PROJECT_DIR$/assets/img/school/plakats-ar-ugunsdzeseju-masinu-poga.png" />
     <entry file="file://$PROJECT_DIR$/assets/img/school/operativo-dienestu-plakats-poga.png" />
@@ -409,18 +410,12 @@
     <entry file="file://$PROJECT_DIR$/assets/img/dungeonScreen/BG.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/school/test.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/img/school/test.png" />
     <entry file="file://$PROJECT_DIR$/assets/img/ui/arrow.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/school/hidden_exit.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/img/school/UI_exit.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/img/school/hidden_exit.png" />
+    <entry file="file://$PROJECT_DIR$/assets/img/school/UI_exit.png" />
     <entry file="file://$PROJECT_DIR$/assets/img/livingRoom/BG.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -469,83 +464,92 @@
     <entry file="file://$PROJECT_DIR$/assets/img/school/Hidden_zime.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/States/Study.js">
+    <entry file="file://$PROJECT_DIR$/src/States/Study.js" />
+    <entry file="file://$PROJECT_DIR$/src/States/Dungeon.js" />
+    <entry file="file://$PROJECT_DIR$/src/States/IntroState.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2006">
-          <caret line="118" column="1" selection-start-line="118" selection-start-column="1" selection-end-line="118" selection-end-column="1" />
+        <state relative-caret-position="238">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/States/Dungeon.js">
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="28" selection-start-line="28" selection-end-line="30" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="7" lean-forward="true" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/States/Preloader.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        <state relative-caret-position="186">
+          <caret line="15892" column="17" selection-start-line="15892" selection-start-column="17" selection-end-line="15892" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/States/Levels.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
+        <state relative-caret-position="663">
           <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/States/LivingRoom.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="117" column="8" selection-start-line="117" selection-start-column="8" selection-end-line="117" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/States/IntroState.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="43" selection-start-column="33" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/States/Street.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/States/Mall.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1309">
-          <caret line="110" column="8" lean-forward="true" selection-start-line="110" selection-start-column="8" selection-end-line="110" selection-end-column="46" />
+        <state relative-caret-position="357">
+          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/States/School.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-98">
-          <caret line="56" column="1" selection-start-line="56" selection-start-column="1" selection-end-line="56" selection-end-column="1" />
+        <state relative-caret-position="1343">
+          <caret line="79" column="45" selection-start-line="79" selection-start-column="45" selection-end-line="79" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/States/Street.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/kiwi.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="547">
+          <caret line="1500" column="4" selection-start-line="1500" selection-start-column="4" selection-end-line="1500" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/game.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        <state>
+          <caret column="22" lean-forward="true" selection-start-column="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/States/Preloader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/States/Mall.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="81" column="23" selection-start-line="81" selection-start-column="23" selection-end-line="81" selection-end-column="23" />
         </state>
       </provider>
     </entry>
