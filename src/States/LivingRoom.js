@@ -25,8 +25,8 @@ LivingRoom.create = function () {
     this.addHiddenObject('dators', 333, 338, 220, 690);
     this.addHiddenObject('detektors', 180, 85, 80, 660);
     this.addHiddenObject('kakis', 470, 345,80, 720);
-    this.addHiddenObject('pagarinatajs', 680, 460, 280, 660);
-    this.addHiddenObject('gludeklis', 760, 485, 80, 690);
+    this.addHiddenObject('pagarinatajs', 710, 430, 280, 660);
+    this.addHiddenObject('gludeklis', 760, 455, 80, 690);
     this.addHiddenObject('panna', 40, 285, 330, 720);
     this.addHiddenObject('serkocini', 960, 570, 330, 690);
     this.addHiddenObject('spuldzite', 255, 220, 180, 720);

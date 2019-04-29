@@ -27,7 +27,7 @@ Street.create = function () {
     this.addHiddenObject('masina', 0, 474, 90, 70);
     this.addHiddenObject('piebrauktuve', 758, 410, 90, 32);
     this.addHiddenObject('ugunsdzesejs', 137, 530, 580, 72);
-    this.addHiddenObject('vieta', 75, 420, 350, 70);
+    this.addHiddenObject('vieta', 75, 400, 350, 70);
     this.addHiddenObject('zime', 688, 515, 350, 110);
 }
 
